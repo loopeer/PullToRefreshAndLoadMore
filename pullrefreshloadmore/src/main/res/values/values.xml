@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_photo_strings.xml -->
+    <eat-comment/>
+    <string-array name="cube_photo_pick_options">
+        <item>Take photo</item>
+        <item>Chose from album</item>
+        <item>Cancel</item>
+    </string-array>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_dialog_values.xml -->
+    <eat-comment/>
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_core_colors_holo.xml -->
+    <eat-comment/>
+    <color name="cube_holo_blue_bright">#ff00ddff</color>
+    <color name="cube_holo_blue_dark">#ff0099cc</color>
+    <color name="cube_holo_blue_light">#ff33b5e5</color>
+    <color name="cube_holo_green_dark">#ff669900</color>
+    <color name="cube_holo_green_light">#ff99cc00</color>
+    <color name="cube_holo_orange_dark">#ffff8800</color>
+    <color name="cube_holo_orange_light">#ffffbb33</color>
+    <color name="cube_holo_purple">#ffaa66cc</color>
+    <color name="cube_holo_red_dark">#ffcc0000</color>
+    <color name="cube_holo_red_light">#ffff4444</color>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_mints_colors.xml -->
+    <eat-comment/>
+    <color name="cube_mints_333333">#333333</color>
+    <color name="cube_mints_4d90fe">#4d90fe</color>
+    <color name="cube_mints_666666">#666666</color>
+    <color name="cube_mints_999999">#999999</color>
+    <color name="cube_mints_app_base_background">#373737</color>
+    <color name="cube_mints_base_font_color">#007edf</color>
+    <color name="cube_mints_black">#000000</color>
+    <color name="cube_mints_cccccc">#cccccc</color>
+    <color name="cube_mints_f1f1f1">#f1f1f1</color>
+    <color name="cube_mints_main_color">#007edf</color>
+    <color name="cube_mints_white">#ffffff</color>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_dialog_values.xml -->
+    <eat-comment/>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">#00000000</color>
+    <declare-styleable name="DotView"><attr format="dimension" name="dot_radius"/><attr format="dimension" name="dot_span"/><attr format="integer" name="dot_unselected_color"/><attr format="integer" name="dot_selected_color"/></declare-styleable>
+    <declare-styleable name="MoreActionView"><attr format="dimension" name="more_action_dot_radius"/><attr format="dimension" name="more_action_dot_span"/><attr format="reference|color" name="more_action_dot_color"/></declare-styleable>
+    <declare-styleable name="ScrollHeaderFrame"><attr format="reference" name="scrollheaderframe_header"/><attr format="reference" name="scrollheaderframe_conent_container"/><attr format="reference" name="scrollheaderframe_footer"/><attr format="boolean" name="scrollheaderframe_disable"/></declare-styleable>
+    <declare-styleable name="SliderBanner"><attr format="reference" name="slider_banner_indicator"/><attr format="reference" name="slider_banner_pager"/><attr format="integer" name="slider_banner_time_interval"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_mints_dimens.xml -->
+    <eat-comment/>
+    <dimen name="cube_mints_content_view_padding">12.5dp</dimen>
+    <dimen name="cube_mints_header_height">44dp</dimen>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_dialog_values.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MaterialDialog</string>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_mints_strings.xml -->
+    <eat-comment/>
+    <string name="cube_mints_exit_tip">Tap back once more to exit.</string>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_photo_strings.xml -->
+    <eat-comment/>
+    <string name="cube_photo_can_not_open_album">Can not open album.</string>
+    <string name="cube_photo_can_not_use_camera">Sorry, you camera is not avariable now.</string>
+    <string name="cube_photo_no_camera">Sorry, it seems that you do not have a camera in your PHONE.</string>
+    <string name="cube_photo_no_enough_space">Sorry, no enough space to store photo.</string>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_core_strings.xml -->
+    <eat-comment/>
+    <string name="cube_views_load_more_click_to_load_more">Click to load more</string>
+    <string name="cube_views_load_more_error">Load error, click to retry</string>
+    <string name="cube_views_load_more_loaded_empty">It is empty. :(</string>
+    <string name="cube_views_load_more_loaded_no_more">All the data has been loaded</string>
+    <string name="cube_views_load_more_loading">loading...</string>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_dialog_values.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_core_styles.xml -->
+    <eat-comment/>
+    <!-- From: file:/Users/srain/git/cube-sdk/core/res/values/cube_dialog_styles.xml -->
+    <eat-comment/>
+    <style name="cube_material_dialog_content">
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">23dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+
+</resources>
