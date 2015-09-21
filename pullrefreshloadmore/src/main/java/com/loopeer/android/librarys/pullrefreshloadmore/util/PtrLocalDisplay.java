@@ -1,5 +1,6 @@
 package com.loopeer.android.librarys.pullrefreshloadmore.util;
 
+import android.app.Activity;
 import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.View;
@@ -41,5 +42,11 @@ public class PtrLocalDisplay {
 
     public static void setPadding(final View view, float left, float top, float right, float bottom) {
         view.setPadding(designedDP2px(left), dp2px(top), designedDP2px(right), dp2px(bottom));
+    }
+
+    public static int getScreenHeight(Context context) {
+        DisplayMetrics displaymetrics = new DisplayMetrics();
+        ((Activity) context).getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+        return displaymetrics.heightPixels;
     }
 }

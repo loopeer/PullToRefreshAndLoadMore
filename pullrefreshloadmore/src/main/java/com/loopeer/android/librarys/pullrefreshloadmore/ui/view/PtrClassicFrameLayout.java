@@ -3,11 +3,12 @@ package com.loopeer.android.librarys.pullrefreshloadmore.ui.view;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.loopeer.android.librarys.pullrefreshloadmore.PtrClassicDefaultHeader;
+import com.loopeer.android.librarys.pullrefreshloadmore.FooterUIHandler;
 
 public class PtrClassicFrameLayout extends PtrFrameLayout {
 
     private PtrClassicDefaultHeader mPtrClassicHeader;
+    private DefaultFooterView mFooterUIHandler;
 
     public PtrClassicFrameLayout(Context context) {
         super(context);
@@ -28,6 +29,10 @@ public class PtrClassicFrameLayout extends PtrFrameLayout {
         mPtrClassicHeader = new PtrClassicDefaultHeader(getContext());
         setHeaderView(mPtrClassicHeader);
         addPtrUIHandler(mPtrClassicHeader);
+
+        mFooterUIHandler = new DefaultFooterView(getContext());
+        setFooterView(mFooterUIHandler);
+        addFooterUIHandler(mFooterUIHandler);
     }
 
     public PtrClassicDefaultHeader getHeader() {

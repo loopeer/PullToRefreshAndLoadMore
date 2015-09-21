@@ -1,4 +1,4 @@
-package com.loopeer.android.librarys.pullrefreshloadmore;
+package com.loopeer.android.librarys.pullrefreshloadmore.ui.view;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,10 +11,9 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-
+import com.loopeer.android.librarys.pullrefreshloadmore.PtrUIHandler;
+import com.loopeer.android.librarys.pullrefreshloadmore.R;
 import com.loopeer.android.librarys.pullrefreshloadmore.indicator.PtrIndicator;
-import com.loopeer.android.librarys.pullrefreshloadmore.ui.view.PtrFrameLayout;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
